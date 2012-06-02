@@ -1,6 +1,6 @@
 # Jquery::ImageReader
 
-TODO: Write a gem description
+An assets only gem that provides helpful jQuery plugins for dropping and pasting image data.
 
 ## Installation
 
