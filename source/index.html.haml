@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    = javascript_include_tag "jquery"
+    = javascript_include_tag "jquery.drop_image_reader"
+    = javascript_include_tag "jquery.paste_image_reader"
+  %body
+
+    :coffeescript
+      $("html").pasteImageReader ({name, dataURL, file, event}) ->
+        $("body").css
+          backgroundImage: "url(\#{dataURL})"
+
+      $("html").dropImageReader ({name, dataURL, file, event}) ->
+        $("body").css
+          backgroundImage: "url(\#{dataURL})"

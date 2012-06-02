@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "jquery-image_reader"
   gem.require_paths = ["lib"]
   gem.version       = Jquery::ImageReader::VERSION
+
+  gem.add_dependency "jquery-source"
 end
