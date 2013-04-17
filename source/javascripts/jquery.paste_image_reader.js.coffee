@@ -32,7 +32,7 @@
         Array::forEach.call clipboardData.types, (type, i) ->
           return if found
 
-          if type.match(options.matchType) or clipboardData.items[i].type.match(options.matchType)
+          if type.match(options.matchType) or (clipboardData.items && clipboardData.items[i].type.match(options.matchType))
             file = clipboardData.items[i].getAsFile()
 
             reader = new FileReader()
