@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# 1382668231144
+
+CACHE:
+index.html
+//code.jquery.com/jquery-1.10.1.min.js
+http://strd6.github.io/require/v0.2.0.js
+
+NETWORK:
+https://*
+http://*
+*
