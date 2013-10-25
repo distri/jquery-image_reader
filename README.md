@@ -1,24 +1,18 @@
 # Jquery::ImageReader
 
-An assets only gem that provides helpful jQuery plugins for dropping and pasting image data.
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'jquery-image_reader'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jquery-image_reader
+Helpful jQuery plugins for dropping and pasting image data.
 
 ## Usage
 
-TODO: Write usage instructions here
+```coffeescript
+$("html").pasteImageReader ({name, dataURL, file, event}) ->
+  $("body").css
+    backgroundImage: "url(#{dataURL})"
+
+$("html").dropImageReader ({name, dataURL, file, event}) ->
+  $("body").css
+    backgroundImage: "url(#{dataURL})"
+```
 
 ## Contributing
 
