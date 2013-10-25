@@ -43,7 +43,7 @@
     "pixie.cson": {
       "path": "pixie.cson",
       "mode": "100644",
-      "content": "version: \"0.1.3\"\nentryPoint: \"main\"\nremoteDependencies: [\n  \"//code.jquery.com/jquery-1.10.1.min.js\"\n  \"http://strd6.github.io/require/v0.2.0.js\"\n]\n",
+      "content": "version: \"0.1.3\"\nentryPoint: \"main\"\nremoteDependencies: [\n  \"//code.jquery.com/jquery-1.10.1.min.js\"\n  \"http://strd6.github.io/require/v0.2.2.js\"\n]\n",
       "type": "blob"
     }
   },
@@ -70,7 +70,7 @@
     },
     "pixie": {
       "path": "pixie",
-      "content": "module.exports = {\"version\":\"0.1.3\",\"entryPoint\":\"main\",\"remoteDependencies\":[\"//code.jquery.com/jquery-1.10.1.min.js\",\"http://strd6.github.io/require/v0.2.0.js\"]};",
+      "content": "module.exports = {\"version\":\"0.1.3\",\"entryPoint\":\"main\",\"remoteDependencies\":[\"//code.jquery.com/jquery-1.10.1.min.js\",\"http://strd6.github.io/require/v0.2.2.js\"]};",
       "type": "blob"
     }
   },
@@ -78,7 +78,7 @@
   "dependencies": {},
   "remoteDependencies": [
     "//code.jquery.com/jquery-1.10.1.min.js",
-    "http://strd6.github.io/require/v0.2.0.js"
+    "http://strd6.github.io/require/v0.2.2.js"
   ],
   "progenitor": {
     "url": "http://strd6.github.io/editor/"
